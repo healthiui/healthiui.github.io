@@ -869,7 +869,9 @@
             eventDates.forEach((date, index) => {
                 const timeDiff = date - today;
                 const daysRemaining = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
-                document.getElementById(`countdown${index + 1}`).innerText = daysRemaining > 0 ? `${daysRemaining} days left` : "Passes!";
+                // document.getElementById(`countdown${index + 1}`).innerText = daysRemaining > 0 ? `${daysRemaining} days left` : "Today";
+                document.getElementById(`countdown${index + 1}`).innerText = daysRemaining > 0 ? `${daysRemaining} days left` : (daysRemaining === 0 ? "Today!" : "Passed!");
+
             });
         }
 
