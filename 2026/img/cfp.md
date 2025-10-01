@@ -77,7 +77,7 @@ We invite two types of submissions:
 
 Accepted papers will be published in the **Joint Proceedings of ACM IUI 2026 Workshops** (previous years in CEUR-WS).  
 
-📌 **Submission Link:** [https://easychair.org/conferences/?conf=healthiui26](https://easychair.org/conferences/?conf=healthiui26)  
+ **Submission Link:** [https://easychair.org/conferences/?conf=healthiui26](https://easychair.org/conferences/?conf=healthiui26)  
 
 ---
 
@@ -89,5 +89,5 @@ More info on venue: [https://iui.acm.org/2026/location/](https://iui.acm.org/202
 
 ## Contact  
 For questions, please contact the workshop chairs:  
-📧 healthiuiworkshop@gmail.com  
+ healthiuiworkshop@gmail.com  
 
