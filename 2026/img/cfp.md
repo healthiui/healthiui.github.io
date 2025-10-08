@@ -37,13 +37,13 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 ## Objectives & Topics  
 
 ### Background  
-As artificial intelligence and intelligent user interfaces (IUIs) reshape healthcare, new opportunities emerge to improve engagement, personalization, accessibility, and trust in health systems. Health IUIs must balance technological innovation with user needs, ethical considerations, and long-term care challenges across diverse populations, from patients managing chronic conditions to clinicians and caregivers.  
+ As artificial intelligence and intelligent user interfaces (IUIs) reshape healthcare, new opportunities emerge to improve engagement, personalization, accessibility, and trust in health systems.  Health IUIs form the bridge between algorithms and people, determining the quality of interaction and enabling meaningful collaboration. Health IUIs must balance technological innovation with user needs, domain demands, ethical considerations, and long-term health and care challenges across diverse populations, from patients managing chronic conditions to clinicians and caregivers, and across diverse health systems worldwide.
 
 ### Goals  
 The HealthIUI 2026 Workshop aims to bring together an interdisciplinary community from HCI, AI, healthcare, psychology, and rehabilitation sciences to:  
 - Explore innovative health IUIs that foster long-term engagement and personalization.  
-- Address challenges of ethics, privacy, fairness, and inclusion in intelligent health technologies.  
-- Share research findings, datasets, systems, and evaluation methods.  
+- Address challenges of value-centric design, ethics, privacy, fairness, and inclusion in intelligent health technologies.
+- Share research findings, datasets, tools, systems, and evaluation methods.  
 - Build collaborations that advance human-centered, intelligent health technologies.  
 
 ### Topics of Interest include, but are not limited to:  
