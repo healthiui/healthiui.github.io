@@ -59,6 +59,8 @@ The HealthIUI 2026 Workshop aims to bring together an interdisciplinary communit
 - Equitable & Inclusive Design for Marginalized Populations  
 - Longitudinal Studies and Real-world Evaluations of Health IUIs  
 - Human-AI Collaboration in Clinical and Care Contexts  
+- Intelligent Interfaces for Health and Care, Behavior Change, and Well-being
+
 
 ---
 
