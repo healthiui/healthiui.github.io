@@ -9,7 +9,7 @@ co-located with ACM IUI 2026: Call for Papers
 
 ## CALL FOR PAPERS  
 **Workshop on Intelligent & Interactive Health User Interfaces**  
-*Submission Deadline: December 20, 2025 (AoE)*  
+*Submission Deadline: December 19, 2025 (AoE)*  
 to be held in **Paphos, Cyprus**  
 
 Co-located with [ACM IUI 2026](https://iui.acm.org/2026)  
