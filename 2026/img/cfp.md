@@ -43,7 +43,8 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 - Niels van Berkel — Aalborg University, Denmark  
 - Marko Tkalcic — University of Primorska, Slovenia  
 - Alain D. Starke — University of Amsterdam, Netherlands  
-Bereket Yilma — University of Luxembourg, Luxembourg
+- Bereket Yilma — University of Luxembourg, Luxembourg
+- Clara-Maria Barth — University of Zurich, Switzerland
 
 *Other members: to be confirmed.*
 
