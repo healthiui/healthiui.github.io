@@ -32,6 +32,22 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 - Shriti Raj (Stanford University, USA)  
 - Helma Torkamaan (Delft University of Technology, Netherlands)  
 
+## Program Committee (PC)
+
+- Bart Knijnenburg — Clemson University, USA  
+- Federica Cena — University of Torino, Italy  
+- Hanna Hauptmann — Utrecht University, Netherlands  
+- Min Lee — SMU, Singapore  
+- Shatha Degachi — TU Delft, Netherlands  
+- Werner Geyer — IBM T.J. Watson Research, USA  
+- Niels van Berkel — Aalborg University, Denmark  
+- Marko Tkalcic — University of Primorska, Slovenia  
+- Alain D. Starke — University of Amsterdam, Netherlands  
+Bereket Yilma — University of Luxembourg, Luxembourg
+
+*Other members: to be confirmed.*
+
+> Interested in joining the PC? Please apply via the workshop website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 ---
 
 ## Objectives & Topics  
