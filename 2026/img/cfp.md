@@ -45,6 +45,7 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 - Alain D. Starke — University of Amsterdam, Netherlands  
 - Bereket Yilma — University of Luxembourg, Luxembourg
 - Clara-Maria Barth — University of Zurich, Switzerland
+- Adir Solomon — University of Haifa, Israel
 
 *Other members: to be confirmed.*
 
