@@ -27,25 +27,25 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 ---
 
 ## Workshop Organizers  
-- Peter Brusilovsky (University of Pittsburgh, USA)  
-- Behnam Rahdari (Stanford University, USA)  
-- Shriti Raj (Stanford University, USA)  
-- Helma Torkamaan (Delft University of Technology, Netherlands)  
+- Peter Brusilovsky (University of Pittsburgh)  
+- Behnam Rahdari (Stanford University)  
+- Shriti Raj (Stanford University)  
+- Helma Torkamaan (Delft University of Technology)  
 
 ## Program Committee (PC)
 
-- Bart Knijnenburg — Clemson University, USA  
-- Federica Cena — University of Torino, Italy  
-- Hanna Hauptmann — Utrecht University, Netherlands  
-- Min Lee — SMU, Singapore  
-- Shatha Degachi — TU Delft, Netherlands  
-- Werner Geyer — IBM T.J. Watson Research, USA  
-- Niels van Berkel — Aalborg University, Denmark  
-- Marko Tkalcic — University of Primorska, Slovenia  
-- Alain D. Starke — University of Amsterdam, Netherlands  
-- Bereket Yilma — University of Luxembourg, Luxembourg
-- Clara-Maria Barth — University of Zurich, Switzerland
-- Adir Solomon — University of Haifa, Israel
+- Bart Knijnenburg — Clemson University  
+- Federica Cena — University of Torino  
+- Hanna Hauptmann — Utrecht University  
+- Min Lee — SMU  
+- Shatha Degachi — TU Delft  
+- Werner Geyer — IBM T.J. Watson Research  
+- Niels van Berkel — Aalborg University  
+- Marko Tkalcic — University of Primorska  
+- Alain D. Starke — University of Amsterdam  
+- Bereket Yilma — University of Luxembourg
+- Clara-Maria Barth — University of Zurich
+- Adir Solomon — University of Haifa
 
 *Other members: to be confirmed.*
 
