@@ -37,7 +37,7 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 - Bart Knijnenburg — Clemson University  
 - Federica Cena — University of Torino  
 - Hanna Hauptmann — Utrecht University  
-- Min Lee — SMU  
+- Min Lee — Singapore Management University (SMU)  
 - Shatha Degachi — TU Delft  
 - Werner Geyer — IBM T.J. Watson Research  
 - Niels van Berkel — Aalborg University  
@@ -46,6 +46,15 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 - Bereket Yilma — University of Luxembourg
 - Clara-Maria Barth — University of Zurich
 - Adir Solomon — University of Haifa
+- Tobias Schreck — Graz University of Technology
+- Stefan Hillmann — Technische Universität Berlin
+- Francisco Nunes — Fraunhofer AICOS, Porto
+- Olga c. Santos — National University of Distance Education (UNED), Madrid
+- Ludovico Boratto — University of Cagliari
+- Noemi Mauro — University of Torino
+- Ine Coppens — University of Ghent
+- Soohwan Lee — Ulsan National Institute of Science & Technology (UNIST)
+- Edward Choi — Korea Advanced Institute of Science and Technology (KAIST) 
 
 *Other members: to be confirmed.*
 
