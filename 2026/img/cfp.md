@@ -19,7 +19,8 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 
 ## Important Dates (AoE)  
 - **December 19, 2025** — Paper submission deadline  
-- **February 2, 2026** — Author notification  
+- **February 2, 2026** — Author notification 
+- - **February 6, 2026** — Authors' Registration Deadline
 - **February 16, 2026** — Camera-ready deadline  
 - **March 23, 2026** — HealthIUI Workshop  
 - **March 23–26, 2026** — ACM IUI 2026 conference  
@@ -55,6 +56,12 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 - Ine Coppens — University of Ghent
 - Soohwan Lee — Ulsan National Institute of Science & Technology (UNIST)
 - Edward Choi — Korea Advanced Institute of Science and Technology (KAIST) 
+- Stefan Lengauer — Graz University of Technology
+- Tariq Osman Andersen — University of Copenhagen
+- Xuhai Xu — Columbia University
+- Martin Wiesner — Heilbronn University
+- Hyunggu Jung — Seoul National University
+- Maxwell Szymanski — KU Leuven
 
 *Other members: to be confirmed.*
 
