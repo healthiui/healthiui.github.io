@@ -18,7 +18,8 @@ Website: [https://healthiui.github.io/2026](https://healthiui.github.io/2026)
 ---
 
 ## Important Dates (AoE)  
-- **December 19, 2025** — Paper submission deadline  
+- **December 19, 2025** — Abstract submission deadline  (Strongly encouraged)
+- **January 06, 2025** — Paper submission deadline  
 - **February 2, 2026** — Author notification 
 - - **February 6, 2026** — Authors' Registration Deadline
 - **February 16, 2026** — Camera-ready deadline  
