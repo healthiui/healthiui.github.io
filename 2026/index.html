@@ -122,6 +122,23 @@ html {
 .organizer-link:hover {
     text-decoration: underline;
 }
+
+/* Program table styles: clean, professional, designer-friendly */
+.program-table-wrap { margin-top: 1rem; }
+.program-table { border-collapse: separate; border-spacing: 0; overflow: hidden; border-radius: .5rem; box-shadow: 0 6px 22px rgba(11,127,126,0.06); }
+.program-table thead th { background: linear-gradient(90deg,#f8faf9,#eef6f5); color: var(--brand-2); text-transform:uppercase; font-size:.78rem; letter-spacing:.06em; border: 0; padding: .85rem 1rem; }
+.program-table tbody td { padding: .9rem 1rem; vertical-align: middle; border-bottom: 1px solid #f1f4f4; }
+.program-time { width: 140px; font-weight:700; color:var(--brand); }
+.program-title a { color: #07393a; font-weight:600; text-decoration: none; }
+.program-title a:hover { color: var(--brand-2); text-decoration: underline; }
+.program-authors { color:#536b6a; font-size:.95rem; }
+.program-link-btn { white-space: nowrap; }
+
+/* Session break styling (soft divider + coffee break pill) */
+.program-table tbody tr.session-break td { border-bottom: 0; padding-top: 1.25rem; padding-bottom: 1.25rem; background: transparent; }
+.session-break-inner { display: inline-block; background: linear-gradient(90deg, rgba(0,150,136,0.06), rgba(0,150,136,0.02)); color: var(--brand-2); padding: .5rem 1rem; border-radius: 999px; font-weight:700; box-shadow: 0 6px 18px rgba(11,127,126,0.04); }
+
+
 </style>
 
 
@@ -219,7 +236,7 @@ html {
         <div class="row align-items-center g-4">
           <div class="col-lg-7">
             <h2 class="h1 mb-3">About the Workshop</h2>
-            <p>As AI transforms health and care, integrating Intelligent User Interfaces (IUI) in wellness
+  <p>As AI transforms health and care, integrating Intelligent User Interfaces (IUI) in wellness
               applications offers substantial opportunities and challenges. This workshop brings together
               experts from HCI, AI, healthcare, and related fields to explore how IUIs can enhance long-term
               engagement, personalization, and trust in health systems. Emphasis is on interdisciplinary
@@ -527,19 +544,164 @@ html {
 </p>
       </div>
     </section>
-    <!-- Program Summary (placeholder) -->
+    <!-- Program Table (polished) -->
     <section id="program" class="section-pad bg-body-tertiary">
       <div class="container">
         <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
-          <h2 class="h1 m-0">Program (TBD)</h2>
-          <!-- <a class="btn btn-outline-secondary btn-sm" href="https://docs.google.com" target="_blank" rel="noopener"><i class="bi bi-table"></i> Full schedule (Google Sheet)</a>
+          <h2 class="h1 m-0">Program — March 23, 2026 (Draft)</h2>
+          
         </div>
-        <div class="row g-3">
-          <div class="col-md-6 col-lg-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><div class="d-flex align-items-center justify-content-between"><div class="fw-semibold">Opening & Keynote</div><span class="text-muted">09:00–10:00</span></div><p class="mb-0 text-muted">Welcome, context setting, and keynote address.</p></div></div></div>
-          <div class="col-md-6 col-lg-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><div class="d-flex align-items-center justify-content-between"><div class="fw-semibold">Paper Session I</div><span class="text-muted">10:00–11:00</span></div><p class="mb-0 text-muted">Personalization and engagement.</p></div></div></div>
-          <div class="col-md-6 col-lg-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><div class="d-flex align-items-center justify-content-between"><div class="fw-semibold">Demo & Posters</div><span class="text-muted">11:00–12:00</span></div><p class="mb-0 text-muted">Hands‑on systems and datasets.</p></div></div></div>
-          <div class="col-md-6 col-lg-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><div class="d-flex align-items-center justify-content-between"><div class="fw-semibold">Panel & Closing</div><span class="text-muted">12:00–13:00</span></div><p class="mb-0 text-muted">Challenges & roadmap for 2026–2027.</p></div></div></div>
-        </div> -->
+
+        <div class="program-table-wrap">
+          <div class="table-responsive">
+            <table class="table program-table mb-0">
+              <thead>
+                <tr>
+                  <th scope="col">Time</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Authors</th>
+                  <th scope="col">Session</th>
+                  <th scope="col" class="text-end">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="program-time">09:00 – 09:10</td>
+                  <td class="program-title">Introduction</td>
+                  <td class="program-authors"></td>
+                  <td>1</td>
+                  <td class="text-end"></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">09:10 – 09:25</td>
+                  <td class="program-title"><a target="_blank" rel="noopener">The Importance of Contextual Information in Clinical Decision Support: A Neonatal-Sepsis Case Study</a></td>
+                  <td class="program-authors">Niels Helmantel, Hanna Hauptmann, Daniel Vijlbrief, Richard Bartels</td>
+                  <td>1</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1TU24HgM_36SxlX9MRbNNdK85fcm04Ehb/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">09:25 – 09:40</td>
+                  <td class="program-title"><a>It’s That Time Of The Month Again: Adjusting Period Tracking Apps To Include Partner Users</a></td>
+                  <td class="program-authors">Shania Jane Martijn, Marit Bentvelzen, Hanna Hauptmann</td>
+                  <td>1</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/147OfPhV3iqK1xlP0l-Qihsi89-4eITeZ/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">09:40 – 09:55</td>
+                  <td class="program-title"><a>Toward a Digital Physiotherapy Support System for Home Training: Survey Insights into Expectations and Requirements of Patients and Therapists</a></td>
+                  <td class="program-authors">Daniela Blumberg, Marco Rahner, Daniel Seebacher, Philip Zimmermann, Daniel A. Keim</td>
+                  <td>1</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1L29B0YapM6mb3PYGv05ZWVRiGq6-_CDJ/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">09:55 – 10:10</td>
+                  <td class="program-title"><a>Final Happiness: What Intelligent User Interfaces Can Do for the lonely Dying</a></td>
+                  <td class="program-authors">Yibo Meng, Bingyi Liu, Lyumanshan Ye, Yan Guan, Xiaolan Ding</td>
+                  <td>1</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1Gk4ot2c0GJ0BeYYj4Ue3vYOWh7pkGPWR/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">10:10 – 10:17</td>
+                  <td class="program-title"><a>Design and Evaluation of an Interactive Support System for Palliative Care</a></td>
+                  <td class="program-authors">Seyed Nima Afzali, Sabahat Ölcer, Ayseguel Doganguen</td>
+                  <td>1</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1Ah_K9NCqMNjZ15ElzF5R7ILry-TTX7uj/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">10:17 – 10:24</td>
+                  <td class="program-title"><a>Two-Level Personas to Support the Design and Evaluation of Intelligent Health Interfaces</a></td>
+                  <td class="program-authors">Peter Brusilovsky, Khushboo Thaker, Mohammad Hassany, Behnam Rahdari, Youjia Wang, Vivian Hui, Heidi Donovan, Daqing He, Young Ji Lee</td>
+                  <td>1</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1D_g6eRd2N6ZCpDTZADrLMsSPexY68zUp/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr class="session-break">
+                  <td class="program-time">10:30 – 11:00</td>
+                  <td colspan="4" class="text-center"><div class="session-break-inner">Coffee break — 10:30 – 11:00</div></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">11:00 – 11:15</td>
+                  <td class="program-title"><a>Dual Trajectories of User Engagement with Medical Generative AI: Cognitive Maturation and Attitudinal Recalibration</a></td>
+                  <td class="program-authors">Yibo Meng, Qiuyu Long, Bingyi Liu, Yan Guan, Xiaolan Ding</td>
+                  <td>2</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/10HWQg_E8auJUgj9MqtbfPypV0HEOzSDB/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">11:15 – 11:30</td>
+                  <td class="program-title"><a>Sanora: A Conversational AI Agent for Multimodal Digital Biomarkers of Mental Health</a></td>
+                  <td class="program-authors">Matthew So, Michael Sobolev, Gregory Menvielle</td>
+                  <td>2</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1j1Di8yF4_h3PtVouMYudn8O47MuWl1HF/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">11:30 – 11:45</td>
+                  <td class="program-title"><a>Design Tradeoffs in Health Interfaces for Behavior Change</a></td>
+                  <td class="program-authors">Michael Sobolev</td>
+                  <td>2</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1LxBWsSIsfBkDqifjkD1d54QHe6amD3vf/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">11:45 – 11:52</td>
+                  <td class="program-title"><a>Towards Scalable Therapist Training via Multi-Turn LLM-Based Client Simulation</a></td>
+                  <td class="program-authors">Enea Gurra, Neha Deshpande</td>
+                  <td>2</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1lu4cv59tWHKi9Kulq_RLgxKl8s-E4b0b/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">11:52 – 11:59</td>
+                  <td class="program-title"><a>SmartPause: Designing a Reinforcement Learning Model for Reducing Screen Time</a></td>
+                  <td class="program-authors">Gustavo Krüger, Nikhil Sachdeva, Yixue Zhao, Tianyi Li, Michael Sobolev</td>
+                  <td>2</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1KOquPkVKagGjxqI1tGEda1VY-n3h3GvI/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">11:59 – 12:06</td>
+                  <td class="program-title"><a>Talking to Your Data: Exploring Embodied Conversation as an Interface for Personal Health Reflection</a></td>
+                  <td class="program-authors">Nikola Kovacevic, Bastien Husler, Di Zhuang, Rafael Wampfler, Barbara Solenthaler</td>
+                  <td>2</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1lbDVyMLx5B-DHTHVtRCSX0ygBACJ16Ji/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">12:06 – 12:13</td>
+                  <td class="program-title"><a>Between Knowledge and Care: Evaluating Generative AI-Based IUI in Type 2 Diabetes Management Through Patient and Physician Perspectives</a></td>
+                  <td class="program-authors">Yibo Meng, Ruiqi Chen, Bingyi Liu, Yan Guan, Xiaolan Ding</td>
+                  <td>2</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/17F7jOuQhoBTUBbR3IenLPLgq_7uPXnno/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">12:13 – 12:20</td>
+                  <td class="program-title"><a>Understanding Elder Care AI Adoption through Self-Determination Theory</a></td>
+                  <td class="program-authors">Naomi Unkelos-Shpigel, Leon Feldman, Mor Hodaya Maman, Ulrich Gartzke</td>
+                  <td>2</td>
+                  <td class="text-end"><a class="btn btn-sm btn-outline-primary program-link-btn" href="https://drive.google.com/file/d/1II_Bjp2pOkTgWgnQYx6IPZXBn-wxmkbA/view?usp=drive_link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>View</a></td>
+                </tr>
+
+                <tr>
+                  <td class="program-time">12:20 – 12:30</td>
+                  <td class="program-title">Conclusion (wrap-up)</td>
+                  <td class="program-authors"></td>
+                  <td>2</td>
+                  <td class="text-end"></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </section>
 
